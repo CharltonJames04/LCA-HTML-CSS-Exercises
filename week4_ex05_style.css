@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Link styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  color: white;
+}
+
+/* Main content spacing */
+main {
+  margin-top: 90px;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+/* Blog post styling */
+.blog-post {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
